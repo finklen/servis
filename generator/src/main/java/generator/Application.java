@@ -3,6 +3,9 @@
  */
 package generator;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Application {
     public String getGreeting() {
         return "Hello World from Generator!";
