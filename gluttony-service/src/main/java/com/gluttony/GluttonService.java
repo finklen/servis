@@ -1,4 +1,4 @@
-package glutton;
+package com.gluttony;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;

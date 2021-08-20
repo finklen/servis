@@ -37,7 +37,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("generator.Application")
+    mainClass.set("com.generator.Application")
 }
 
 tasks.test {

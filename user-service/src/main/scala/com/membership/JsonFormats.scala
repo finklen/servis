@@ -1,6 +1,6 @@
-package com.example
+package com.membership
 
-import com.example.UserRegistry.ActionPerformed
+import com.membership.UserRegistry.ActionPerformed
 
 //#json-formats
 import spray.json.DefaultJsonProtocol

@@ -40,7 +40,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("glutton.Application")
+    mainClass.set("com.gluttony.Application")
 }
 
 tasks.test {

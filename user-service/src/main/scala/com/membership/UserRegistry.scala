@@ -1,4 +1,4 @@
-package com.example
+package com.membership
 
 //#user-registry-actor
 import akka.actor.typed.ActorRef

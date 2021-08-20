@@ -1,4 +1,4 @@
-package generator;
+package com.generator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.reactive.ReactiveKafkaProducerTemplate;
