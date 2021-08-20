@@ -27,6 +27,8 @@ dependencies {
     implementation("io.projectreactor.kafka:reactor-kafka:1.3.5")
     implementation("org.springframework.kafka:spring-kafka:2.7.5")
     implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
+    runtimeOnly("io.r2dbc:r2dbc-postgresql:0.8.8.RELEASE")
+    runtimeOnly("org.postgresql:postgresql:42.2.23")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
 
     // Use JUnit Jupiter for testing.

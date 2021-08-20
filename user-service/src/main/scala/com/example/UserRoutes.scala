@@ -21,7 +21,7 @@ class UserRoutes(userRegistry: ActorRef[UserRegistry.Command])(implicit val syst
   //#import-json-formats
 
   // If ask takes more time than this to complete the request is failed
-  private implicit val timeout = Timeout.create(system.settings.config.getDuration("my-app.routes.ask-timeout"))
+  private implicit val timeout = Timeout.create(system.settings.config.getDuration("spider.routes.ask-timeout"))
 
   def getUsers(): Future[Users] =
     userRegistry.ask(GetUsers)
@@ -31,6 +31,7 @@ class UserRoutes(userRegistry: ActorRef[UserRegistry.Command])(implicit val syst
     userRegistry.ask(CreateUser(user, _))
   def deleteUser(name: String): Future[ActionPerformed] =
     userRegistry.ask(DeleteUser(name, _))
+
 
   //#all-routes
   //#users-get-post

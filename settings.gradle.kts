@@ -8,5 +8,7 @@
  */
 
 rootProject.name = "servis"
-include("glutton")
-include("generator")
+include("generator-service")
+include("gluttony-service")
+include("user-service")
+include("point-service")
